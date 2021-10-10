@@ -33,7 +33,6 @@ async def on_message(message):
       'Accepts': 'application/json',
       'X-CMC_PRO_API_KEY': 'ebe37ed9-4668-4ea2-8fe8-472328e53828',
     }
-
     session = Session()
 
     session.headers.update(headers)
